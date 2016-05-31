@@ -1,0 +1,8 @@
+launch_sites:
+- SLC_4E
+- SLC_40
+launches:
+- F9_26
+vehicles:
+- Falcon_9
+- Falcon_Heavy
