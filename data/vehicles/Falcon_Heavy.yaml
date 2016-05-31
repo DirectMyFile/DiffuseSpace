@@ -1,0 +1,46 @@
+name: "Falcon Heavy"
+status: "development"
+cores: 3
+engines: 27
+stages: 2
+boosters: 2
+height:
+  m: 70
+  ft: 229.6
+width:
+  m: 12.2
+  ft: 39.9
+mass:
+  kg: 1420788
+  lbs: 3125735
+capabilities:
+  reusable: true
+  payload:
+    LEO:
+      kg: 54400
+      lbs: 119930
+    GTO:
+      kg: 22200
+      lbs: 48940
+    Mars:
+      kg: 13600
+      lbs: 29980
+    Pluto:
+      kg: 2900
+      lbs: 6390
+  thrust:
+  - stage: 1
+    engines: 27
+    normal:
+      kn: 22819
+      lbf: 5130000
+    vaccum:
+      kn: 24681
+      lbf: 5548500
+  - stage: 2
+    engines: 1
+    vaccum:
+      kn: 24681
+      lbf: 5548500
+sites:
+- SLC_4E

@@ -1,0 +1,6 @@
+name: "Vandenberg AFB"
+description: "Vandenberg AFB Space Launch Complex 4E"
+location:
+  latitude: 34.632706
+  longitude: 120.613393
+  inside: "Vandenberg Air Force Base"

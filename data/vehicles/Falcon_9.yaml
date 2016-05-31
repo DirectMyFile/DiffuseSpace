@@ -1,4 +1,6 @@
 name: "Falcon 9"
+status: "active"
+cores: 1
 engines: 9
 height:
   m: 70
@@ -38,3 +40,4 @@ capabilities:
       lbf: 210000
 sites:
 - SLC_40
+- SLC_4E
