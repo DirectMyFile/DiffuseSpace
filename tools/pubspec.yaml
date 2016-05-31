@@ -1,0 +1,4 @@
+name: spacex_data_api
+description: SpaceX Data API
+dependencies:
+  yaml: "^2.1.9"
