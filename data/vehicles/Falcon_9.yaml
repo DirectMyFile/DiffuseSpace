@@ -1,0 +1,40 @@
+name: "Falcon 9"
+engines: 9
+height:
+  m: 70
+  ft: 229.6
+diameter:
+  m: 3.7
+  ft: 12
+mass:
+  kg: 549054
+  lbs: 1207920
+stages: 2
+capabilities:
+  reusable: true
+  payload:
+    LEO:
+      kg: 22800
+      lbs: 50265
+    GTO:
+      kg: 8300
+      lbs: 18300
+    Mars:
+      kg: 4020
+      lbs: 8860
+  thrust:
+  - stage: 1
+    engines: 9
+    normal:
+      kn: 7607
+      lbf: 1710000
+    vaccum:
+      kn: 8227
+      lbf: 1849500
+  - stage: 2
+    engines: 1
+    vaccum:
+      kn: 934
+      lbf: 210000
+sites:
+- SLC_40

@@ -1,0 +1,7 @@
+name: "Eutelsat 117 West B & ABS 2A"
+vehicle: "Falcon 9"
+site: "SLC 40"
+scheduled:
+  date: "06/16/2016"
+  time:
+    utc: "14:30"
