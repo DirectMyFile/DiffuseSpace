@@ -1,0 +1,49 @@
+name: "Eutelsat 117 West B & ABS 2A"
+vehicle: "Falcon 9"
+site: "SLC 40"
+status: "complete"
+videos:
+- name: "Hosted Webcast"
+  type: "livestream"
+  status: "complete"
+  url: "https://www.youtube.com/watch?v=zBYC4f79iXc"
+  times:
+  - name: Countdown Coverage
+    time: 1059
+  - name: Vehicle Startup
+    time: 1227
+  - name: Liftoff
+    time: 1287
+  - name: Max-Q
+    time: 1370
+  - name: MECO
+    time: 1447
+  - name: Stage Separation
+    time: 1453
+  - name: Second Stage Startup 1
+    time: 1460
+  - name: First Stage Entry Burn
+    time: 1664
+  - name: Second Stage Shutdown 1
+    time: 1858
+  - name: First Stage Landing
+    time: 1779
+  - name: First Stage Landed
+    time: 1815
+  - name: Second Stage Coast Start
+    time: 1915
+  - name: Second Stage Startup 2
+    time: 2918
+  - name: Second Stage Shutdown 2
+    time: 2993
+  - name: Payload Deploy
+    time: 3211
+- name: "Technical Webcast"
+  type: "livestream"
+  status: "complete"
+  url: "https://www.youtube.com/watch?v=wPYOtCFSLKw"
+  times: []
+- name: "First Stage Landing"
+  type: "video"
+  effect: "sped-up"
+  url: "https://www.youtube.com/watch?v=4jEz03Z8azc"

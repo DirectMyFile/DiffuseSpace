@@ -2,6 +2,7 @@ launch_sites:
 - SLC_4E
 - SLC_40
 launches:
+- F9_25
 - F9_26
 vehicles:
 - Falcon_9
