@@ -2,6 +2,14 @@ name: "Thaicom 8"
 vehicle: "Falcon 9"
 site: "SLC 40"
 status: "complete"
+stages:
+- name: First Stage
+  landing:
+    success: true
+    type: sea
+- name: Second Stage
+  payload:
+    deployed: true
 videos:
 - name: "Hosted Webcast"
   type: "livestream"
