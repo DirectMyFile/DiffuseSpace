@@ -1,0 +1,49 @@
+name: "CRS-9"
+vehicle: "Falcon 9"
+site: "SLC 40"
+status: "complete"
+date: "7/18/2016"
+time:
+  utc: "4:45"
+stages:
+- name: First Stage
+  landing:
+    success: true
+    type: land
+    location: "Landing Zone 1"
+- name: Second Stage
+  payload:
+    deployed: true
+videos:
+- name: "Hosted Webcast"
+  type: "livestream"
+  status: "complete"
+  url: "https://www.youtube.com/watch?v=ThIdCuSsJh8"
+  times:
+  - name: Vehicle Startup
+    time: 958
+  - name: Liftoff
+    time: 1018
+  - name: Max-Q
+    time: 1090
+  - name: MECO
+    time: 1156
+  - name: Stage Separation
+    time: 1163
+  - name: Second Stage Startup
+    time: 1170
+  - name: First Stage Entry Burn
+    time: 1406
+  - name: First Stage Landing
+    time: 1481
+  - name: First Stage Landed
+    time: 1516
+  - name: Payload Deploy
+    time: 1597
+  - name: Solar Array Deploy
+    time: 1748
+- name: "Technical Webcast"
+  type: "livestream"
+  status: "complete"
+  url: "https://www.youtube.com/watch?v=FCCyVCvN2bo"
+  times: []
