@@ -4,6 +4,7 @@ launch_sites:
 launches:
 - F9_25
 - F9_26
+- F9_27
 vehicles:
 - Falcon_9
 - Falcon_Heavy
